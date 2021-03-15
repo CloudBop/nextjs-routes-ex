@@ -1,3 +1,18 @@
+## Example of dynamic routing in NextJS
+
+An example of how /pages is used to create routes.
+
+Client routes with nested identifiers for folders
+-/clients/[client-id]/[client-project-id]
+
+Portfolio pages by project id
+-/portfolio/[client-project-id]
+
+Wildcard example for blog posts.
+- /blog/anything-can-go-here
+- /blog/[...slug]
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
